@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home2.css">
+    <title>Home</title>
+</head>
+<body>
+    <!-- menu de navegação -->
+    <header>
+        <div id="menu">
+            <nav>
+                <ul>
+                    <img id="imgLogo" src="logo.jpg">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Sistemas de Informação</a></li>
+                    <li><a href="#">Direito</a></li>
+                    <li><a href="#">Psicologia</a></li>
+                    <li><a href="#">Portal tira dúvidas</a></li>
+                    <li><a href="#">Perfil</a></li>
+                </ul>
+            </nav>
+      </div>
+	</header>
+    <!--conteudo principal--> 
+    <div id="main-content">
+        <h1>Nova maneira de tirar suas dúvidas de estudo</h1>
+        <p>O site PUCsaber proporciona uma maneira dinâmica de possuir respostas por alunos da Puc São Gabriel, para suas perguntas de 
+          direito, sistemas de informação ou psicologia.</p>
+    </div>
+
+    <!--quadros-->
+    <div class="container">
+		<div class="box">
+		  <img src="perf3.jpg" alt="Imagem 1" />
+		  <h2>Crie seu Perfil</h2>
+		  <p>Exigimos que todos façam login ou crie um perfil para evitar a disseminação de informações falsas .</p>
+		</div>
+		<div class="box">
+		  <img src="est 2.png" alt="Imagem 2" />
+		  <h2>Tenha a resposta para sua dúvida</h2>
+		  <p>Caso não encontre sua resposta, é possível escrever a sua pergunta e aguardar a resposta.</p>
+		</div>
+		<div class="box">
+		  <img src="curt.png" alt="Imagem 3" />
+		  <h2>Responda as perguntas de outros usuários </h2>
+		  <p>O site dispinibiliza um espaço para todos os usuários responderem às perguntas de outras pessoas.</p>
+		</div>
+        <div class="box">
+            <img src="noticia.png" alt="Imagem 4" />
+            <h2>Tenha acesso à notícias sobre diversas áreas </h2>
+            <p>Direito:</p>
+            <a href="#" class="saiba-mais"><button>Saiba mais</button> </a>
+            <p>Sistemas de informação:</p>
+            <a href="#" class="saiba-mais"><button>Saiba mais</button> </a>
+            <p> Psicologia:</p>
+            <a href="#" class="saiba-mais"><button>Saiba mais</button> </a>
+	  </div>
+   
+      <footer>
+        <div id="pe">
+            <a href="termodeuso.html">Termo de Uso |</a>
+            <a href="politicadeprivacidade.html"> Política de privacidade</a>
+            <div>
+                <span>&copy; 2023 PUCsaber</span>
+              </div>
+        </div>
+    </footer>
+</body>
+</html>
