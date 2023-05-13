@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="forum.css">
+    <title>Menu forum</title>
+
+
+    
+</head>
+
+
+
+<header>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+
+
+    <h1>PUCSaber</h1>
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menuIcon">
+            <img class="abrir" src="./imagens/justify.svg" alt="barramenu">
+            <img class="fechar" src="./imagens/x-circle.svg" alt="fechar">
+        </label>
+        <div id="menu">
+
+            <img id="imgLogo" src="./Imagens/logosaber.png" alt="">
+            <a href="#">Home</a>
+            <a href="#">Sistemas de Informação</a>
+            <a href="#">Direito</a>
+            <a href="#">Psicologia</a>
+            <a href="#">Portal Tira Dúvidas</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main>
+  
+        <h2 class="bem-vindo">Olá e bem-vindo ao nosso forúm!<h2>
+
+                <div class="row justify-content-center">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-8 area_feedback">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-12 card">
+                            <div class="card-body" class="Nome">
+                                <h3>Nome: <span class="badge bg-secondary">Caio Luiz</span></h3>
+
+                            </div>
+                            <div class="Area">
+                                <section class="row">
+                                    <div class="col-md-6 card-body">
+                                        <h2>Área:</h2>
+
+                                        <div class="col-md-10">
+                                            <select class="form-select form-select-sm"
+                                                aria-label=".form-select-sm example">
+                                                <option selected>Selecione a área</option>
+                                                <option value="1">Sistema de informação</option>
+                                                <option value="2">psicologia</option>
+                                                <option value="3">Direito</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                            </div>
+                            </section>
+
+
+                            <div class="mb-3">
+
+                                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" style="width: 40%; margin-left: 15px;""></textarea>
+                            </div>
+
+                            <div class="bot" style="margin-left: 18px; margin-bottom: 10px;">
+                                <button type="button" class="btn btn-secondary">Enviar</button>
+                            </div>
+
+    </main>
+</body>
+
+
+</html>
