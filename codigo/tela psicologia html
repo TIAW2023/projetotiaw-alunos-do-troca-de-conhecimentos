@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="barralateral.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>PUCSaber</h1>
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menuIcon">
+            <img class="abrir" src="./imagens/justify.svg" alt="barramenu">
+            <img class="fechar" src="./imagens/x-circle.svg" alt="fechar">
+        </label>
+        <div id="menu">
+
+            <img id="imgLogo" src="./Imagens/logosaber.png" alt="">
+            <a href="#">Home</a>
+            <a href="#">Sistemas de Informação</a>
+            <a href="#">Direito</a>
+            <a href="#">Psicologia</a>
+            <a href="#">Portal Tira Dúvidas</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+   
+    
+        <main>
+            <h1>Psicologia</h1>
+            <h2> Procura por curso de psicologia nas faculdades explode no Brasil</h2>
+            <p>Asbahr aponta um enriquecimento do debate sobre a carreira nas universidades trazido pelas cotas para estudantes de escola pública e pretos, pardos e indígenas. "Essa maior diversidade de alunos trouxe uma vivência das desigualdades sociais do país que tem pautado as discussões sobre a profissão", afirma.</p>
+            <p>"Isso fortaleceu uma reflexão sobre como a psicologia pode atuar em temas como o racismo, o machismo e as questões de gênero. Discute-se muito a inserção da psicologia em políticas públicas, para que o atendimento psicológico seja acessível."</p>
+            <p>A forma como a saúde mental passou a ser vista pela sociedade também explica a alta demanda pela carreira de psicólogo, na avaliação de Andréia Schmidt, presidente da Sociedade Brasileira de Psicologia e professora do curso de psicologia na USP de Ribeirão Preto.</p>
+            <p>"Antes, os problemas de saúde mental eram tidos como questões individuais, uma fraqueza ou até falta de vontade das pessoas", afirma. "Agora existe uma outra compreensão, a de que a saúde mental é uma questão social também e é fundamental para que se viva bem."</p>   
+            <P>Schmidt pondera que a alta da procura pela graduação em psicologia também é um desafio para os novos profissionais. "O Brasil tem atualmente mais de 430 mil psicólogos, é um número assustador, que torna a carreira muito concorrida", diz.</P>
+        </main>
+       
+            <aside>
+                <div id="barraLateral">
+                    <h1>Fórum</h1>
+                    <h2>Dúvida</h2>
+                    <p>Como a psicologia estuda o ser humano?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> Melhores áreas na psicologia</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> sobre a filosofia na psicologia</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                </div>
+            </aside>
+
+            <footer>
+                <div id="pe">
+                    <a href="termodeuso.html">Termo de Uso |</a>
+                    <a href="politicadeprivacidade.html"> Política de privacidade</a>
+                    <div>
+                        <span>&copy; 2023 PUCsaber</span>
+                      </div>
+                </div>
+            </footer>
+        
+    </div>
+</body>
+
+</html>
