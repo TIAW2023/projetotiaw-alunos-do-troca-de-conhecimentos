@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="barralateral.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>PUCSaber</h1>
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menuIcon">
+            <img class="abrir" src="./imagens/justify.svg" alt="barramenu">
+            <img class="fechar" src="./imagens/x-circle.svg" alt="fechar">
+        </label>
+        <div id="menu">
+
+            <img id="imgLogo" src="./Imagens/logosaber.png" alt="">
+            <a href="#">Home</a>
+            <a href="#">Sistemas de Informação</a>
+            <a href="#">Direito</a>
+            <a href="#">Psicologia</a>
+            <a href="#">Portal Tira Dúvidas</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+   
+    
+        <main>
+        <h1>Sistema de informação</h1>
+        <h2>C# tem chances de se tornar a linguagem mais popular do ano pela primeira vez</h2>
+        <p>A linguagem C# tem tudo para ganhar seu primeiro prêmio de linguagem de programação do ano pelo Índice Tiobe, em seus 21 anos de existência, de acordo com Paul Jansen, CEO da TIOBE Software.</p>
+            
+        <p>No detalhamento do Índice Tiobe de novembro, Jansen destacou ao ZDNet como a linguagem C# tem se popularizado neste ano. A linguagem favorita dos desenvolvedores .NET, teve o maior aumento nas classificações em um único ano.</p>
+
+        </p>“No momento, C# é de longe o candidato mais provável para este título. É interessante notar que a C# nunca ganhou o prêmio de ‘Linguagem de programação de índice Tiobe do ano’ durante seus 21 anos de existência, embora tenha estado entre os 10 primeiros nas últimas duas décadas”, escreveu Jansen.</p>
+        
+        </p>A C# foi projetada por Anders Hejlsberg, da Microsoft, e lançada em 2000. Em novembro, a Microsoft lançou a C# versão 10 junto com o .NET 6 para Linux, macOS e Windows, bem como o Visual Studio 2022, sua primeira versão de 64 bits do Visual Studio. A versão .NET também oferece suporte nativo para Apple Arm64 Silicon e Windows Arm64.</p>
+        
+        </p>Atualmente, a C# é a quinta linguagem mais popular nas classificações Tiobe. Alcançou sua classificação mais alta, o terceiro lugar, em 2012.</p>
+        
+        </p>Nesta edição do índice, a linguagem mais popular continua sendo Python, seguida por C, Java e C++. Completando os 10 principais estão Visual Basic, JavaScript, linguagem Assembly, SQL e Swift.</p>
+        
+        </p>Outros movimentos interessantes destacados no índice Tiobe neste mês são: Swift, que saltou do 14º para 10º lugar; R, que saiu da 15ª para a 11ª posição do ranking; e Kotlin, que saltou da 33ª posição para a 26ª.</p>
+        
+        </p>A linguagem PHP tem caído lentamente no índice de popularidade, conforme apontado no mês passado por Jansen. Seguindo o mesmo ritmo, a linguagem ficou na 10ª posição em novembro e está na 12ª posição em dezembro.</p>
+        
+        </p>De acordo com o ZDNet, colaboradores de PHP, incluindo o criador de IDE JetBrains, anunciaram a criação da PHP Foundation no mês passado, que é uma oferta coletiva para garantir o futuro da linguagem de script. Ele foi criado em resposta à saída de um contribuidor que quase exclusivamente mantinha os componentes principais da PHP, diz o site.</p>
+        </main>
+       
+            <aside>
+                <div id="barraLateral">
+                    <h1>Fórum</h1>
+                    <h2>Dúvida</h2>
+                    <p>Como elevar um número utilizando c#?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> Como utilizar funções corretamente em c#?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> Qual o comando para efetuar uma raíz quadrada em c#?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                </div>
+            </aside>
+
+            <footer>
+                <div id="pe">
+                    <a href="termodeuso.html">Termo de Uso |</a>
+                    <a href="politicadeprivacidade.html"> Política de privacidade</a>
+                    <div>
+                        <span>&copy; 2023 PUCsaber</span>
+                      </div>
+                </div>
+            </footer>
+        
+    </div>
+</body>
+
+</hhtml>
