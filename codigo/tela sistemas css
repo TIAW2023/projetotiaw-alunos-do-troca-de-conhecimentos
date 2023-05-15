@@ -1,0 +1,103 @@
+body{
+    background-color: rgba(213, 216, 247, 0.221);
+}
+main{
+
+}
+main p{
+    font-size: 1.25em;
+    
+}
+
+#barraLateral {
+    width: 100%;
+    max-width: 1000px;
+    background-color: rgba(90, 108, 246, 0.224);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 16px;
+    border-radius: 1em;
+    color: rgb(12, 104, 154);
+
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#barraLateral h2 {
+    font-size: 1.35em;
+    color: rgb(2, 41, 132);
+
+}
+
+#barraLateral h1 {
+    text-align: center;
+    width: 100%;
+    border-bottom: 2px solid rgba(5, 32, 169, 0.546);
+}
+
+#barraLateral p {
+    font-size: 1.15em;
+}
+
+#barraLateral textarea {
+    width: 100%;
+    height: 60px;
+    padding: 4px;
+    border-radius: 1em;
+}
+
+#barraLateral .botoesDiv button {
+    margin: 3px;
+    padding: 3px;
+    outline: 0px;
+    border: 0px;
+    color: rgb(184, 202, 210);
+    background-color: rgb(2, 41, 132);
+    font-size: 1.25em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 200ms;
+    border-radius: 0.25em;
+}
+
+#barraLateral .botoesDiv {
+
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#barraLateral button:hover {
+    background-color: rgb(40, 178, 247);
+    color: aliceblue;
+}
+
+@media screen and (max-width:600px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+}
+
+footer {
+    background-color: #e8f5ff;
+    color: #aac8ff;
+    padding: 20px;
+    text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    font-size: 18px;
+    position: end;
+    
+    }
+    footer a {
+    color: #333;
+    text-decoration: none;
+     font-weight: none;
+       font-size:18px;
+       font-family: Arial;
+    }
