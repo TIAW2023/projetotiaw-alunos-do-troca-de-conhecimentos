@@ -1,0 +1,113 @@
+
+main{
+    background-image: url("./Imagens/PUCsaber3.png");
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 40px;
+}
+
+
+h1{
+    color:rgb(0, 128, 188); 
+    font-size: 1.50em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#dadosPerfil{
+    width:100%;
+    max-width:700px;
+    background-color:rgba(237, 240, 243, 0.425);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 58px;
+    border-radius: 1em;
+    color:rgb(14, 28, 33); 
+    font-size: 1.20em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#dadosPerfil #card{
+   border-radius: 1em;
+   background-color: var(--corprimaria);
+   
+    
+}
+#dadosPerfil #direita{
+    width:100%;
+}
+#imagemPerfil{
+    width: 90px;
+}
+
+#dadosPerfil textarea{
+    width:100%;
+    height: 100px;
+    padding:24px;
+    background-color: rgba(240, 248, 255, 0.174);
+    border-radius: 1em;
+   
+}
+#dadosPerfil #esquerda p{
+    white-space: nowrap;
+    
+}
+#dadosPerfil #direita div{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+
+}
+    #dadosPerfil #direita h2{
+        padding-top: 24px;
+    }
+#dadosPerfil button{
+    padding:16px;
+    outline: 0px;
+    border:0px;
+    color: rgb(14, 28, 33); 
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 200ms;
+    border-radius: 0.25em;
+}
+#dadosPerfil button:hover{
+    background-color:rgb(40, 178, 247);
+    color: aliceblue;
+}
+@media screen and (max-width:600px) {
+    main{
+        
+       background-image: url(./Imagens/saberre.png);
+       background-size: cover;
+
+    }
+
+    #dadosPerfil{
+        margin: 15px;
+        display:grid;
+        align-items: center;
+        background-color: #ffffffa0;
+        color: rgb(0, 136, 255);
+      
+        
+    }
+    #dadosPerfil #card{
+        display: none;
+    }
+    
+}
+
+@media screen and (min-width:801px) and (max-width:950px)
+{
+    main{
+        width: 100%;
+        background-image: url(./Imagens/PUCsaber3.png);
+        background-size: cover;
+    }
+   
+}

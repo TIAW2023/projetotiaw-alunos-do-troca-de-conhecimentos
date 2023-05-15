@@ -1,0 +1,51 @@
+main{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+  
+}
+#modal{
+    width:100%;
+    max-width:400px;
+    background-color:rgb(234, 235, 236);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap:0px;
+    padding:10px;
+    border-radius: 1em;
+    color:rgb(157, 162, 167); 
+    font-size: 1.15em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+#modal textarea{
+    width:200px;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+}
+#modal #botaoResposta button{
+    margin: 3px;
+    padding: 3px;
+    outline: 0px;
+    border:0px;
+    color: rgb(157, 162, 167); 
+    font-size: 1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 200ms;
+    border-radius: 0.25em;
+}
+
+
+#modal #botaoResposta button{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+#modal #botaoResposta button:hover{
+    background-color:rgb(40, 178, 247);
+    color: rgb(240, 248, 255);
+}
