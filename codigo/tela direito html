@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="barralateral.css">
+    <title>Document</title>
+</head>
+<header>
+    <h1>PUCSaber</h1>
+    <nav>
+        <input type="checkbox" id="menuToggle">
+        <label for="menuToggle" class="menuIcon">
+            <img class="abrir" src="./imagens/justify.svg" alt="barramenu">
+            <img class="fechar" src="./imagens/x-circle.svg" alt="fechar">
+        </label>
+        <div id="menu">
+
+            <img id="imgLogo" src="./Imagens/logosaber.png" alt="">
+            <a href="#">Home</a>
+            <a href="#">Sistemas de Informação</a>
+            <a href="#">Direito</a>
+            <a href="#">Psicologia</a>
+            <a href="#">Portal Tira Dúvidas</a>
+            <a href="perfil.html">Perfil</a>
+        </div>
+    </nav>
+</header>
+
+<body>
+   
+    
+        <main>
+        <h1>Direito</h1>
+        <h2> Direito do consumidor</h2>
+        <p><span>Direitos Fundamentais do Consumidor
+            Direito à segurança
+            Garantia contra produtos ou serviços que possam ser nocivos à vida ou à saúde.</p></span>
+            
+             
+             Direito à escolha
+             <p><span>Opção entre vários produtos e serviços com qualidade satisfatória e preços competitivos.<p></span>
+            
+            
+            à informação
+                <p><span>Conhecimento de dados indispensáveis sobre produtos ou serviços para uma decisão consciente.</p><span>
+            
+            
+            Direito à ser ouvido
+            <p><span>Os interesses dos consumidores devem ser levados em conta pelos governos no planejamento e execução das políticas econômicas.<p><span>
+            
+            
+            Direito à indenização
+            <p></span>Reparação financeira por danos causados por produtos ou serviços.<p><span>
+            
+             
+            
+            Direito à educação para o consumo
+            <p></span>Meios para o cidadão exercitar conscientemente sua função no mercado.<p></span>
+            
+             
+            
+            Direito a um meio ambiente saudável
+            <p></span>Defesa do equilíbrio ecológico para melhorar a qualidade de vida agora e preserva-la para o futuro.</p></span>
+        </main>
+       
+            <aside>
+                <div id="barraLateral">
+                    <h1>Fórum</h1>
+                    <h2>Dúvida</h2>
+                    <p>Qual artigo da constituição fala sobre os direitos humanos?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> Quais os direitos asseguradas pela CLT?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                    <h2>Dúvida</h2>
+                    <p> De acordo com o direito do consumidor qual a data limite para efetuar troca de mercadoria?</p>
+                    <div class="botoesDiv">
+                        <button type="button">Resposta</button>
+                    </div>
+                </div>
+            </aside>
+            
+            <footer>
+                <div id="pe">
+                    <a href="termodeuso.html">Termo de Uso |</a>
+                    <a href="politicadeprivacidade.html"> Política de privacidade</a>
+                    <div>
+                        <span>&copy; 2023 PUCsaber</span>
+                      </div>
+                </div>
+            </footer>
+        
+    </div>
+</body>
+
+</html>
